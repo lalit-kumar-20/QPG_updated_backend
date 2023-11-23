@@ -1,4 +1,5 @@
 Question Paper Generator
+
 Overview
 The Question Paper Generator is a Full stack application that has three endpoints for managing and generating question papers. It allows users to submit questions with attributes such as question text, subject, topic, difficulty, and marks. Additionally, it generates question papers based on specified difficulty percentages.
 
@@ -17,6 +18,8 @@ npm install
 nmp i express
 npm i bootstrap
 Usage
+
+
 1. Start the Server
 use
 
@@ -28,9 +31,10 @@ This will start the backend server on http://localhost:3001.
 This will start the frontend server on http://localhost:3000.
 
 2. Submit a Question
+   
 Use the provided HTML form saveQuestion to submit a question with attributes such as question text, subject, topic, difficulty, and marks.
 
-3. Generate a Question Paper
+4. Generate a Question Paper
 Use the generateQuestionPaper button endpoint to generate a question paper with the specified difficulty percentages. The generated question paper will be returned in JSON format.
 
 We can also set the Total marks of the question paper, percentage of questions from easy, medium and hard difficulty using the updateDifficulty form according to our requirements. If not provided, the default values have been set to total marks = 100 , Difficulty: (20% Easy, 50% Medium, 30% Hard ).
